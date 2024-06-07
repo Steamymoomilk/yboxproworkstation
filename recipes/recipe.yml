@@ -16,10 +16,6 @@ modules:
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
                   
-  modules:
-  - type: brew
-    # rest of the module config...
-  - from-file: brew.yml
     install:
       - micro
       - kdenlive
