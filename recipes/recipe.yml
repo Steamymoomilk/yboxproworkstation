@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: yboxproworkstation
+name: template
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -15,19 +15,14 @@ modules:
       - usr: /usr # copies config/files/usr into your image's /usr.
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
-  - type: brew
-  option: true
-                  
-                  
+                      - type: brew
+      option: true
+
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      - micro
-      - kdenlive
-      - btop
-      - nvtop
-      
+      # - micro
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
