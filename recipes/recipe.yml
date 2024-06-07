@@ -15,24 +15,8 @@ modules:
       - usr: /usr # copies config/files/usr into your image's /usr.
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
-
-      type: brew
-# Auto-update Brew binary
-auto-update: true # Optional - Default: true - Expects type: boolean
-# Interval between Brew updates
-update-interval: '6h' # Optional - Default: '6h' - Expects type: string
- # Time delay after boot before first Brew update
-update-wait-after-boot: '10min' # Optional - Default: '10min' - Expects type: string
-# Auto-upgrade Brew packages
-auto-upgrade: true # Optional - Default: true - Expects type: boolean
-# Interval between Brew package upgrades
-upgrade-interval: '8h' # Optional - Default: '8h' - Expects type: string
-# Time delay after boot before first Brew upgrade
-upgrade-wait-after-boot: '30min' # Optional - Default: '30min' - Expects type: string
-# Apply nofile limits for Brew installations
-nofile-limits: false # Optional - Default: false - Expects type: boolean
-# Control Brew analytics
-brew-analytics: true # Optional - Default: true - Expects type: boolean
+modules:
+    - from-file: modules-brew.yml
     install:
       - micro
       - kdenlive
