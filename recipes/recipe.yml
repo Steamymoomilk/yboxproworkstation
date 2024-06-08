@@ -53,8 +53,9 @@ modules:
     - 5940 #quick audio settings
     - 3193 # blur my shell
   - type: script
-    snippets:
-    - "echo hello world"
+    scripts:
+    - distrobox.sh
+    - extra-packages.sh
   
    # scripts: 
    #- extra-packages.sh
