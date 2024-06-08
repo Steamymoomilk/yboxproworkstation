@@ -47,4 +47,5 @@ modules:
   - type: brew
     option: true
   - type: gnome-extensions
-    install: runcat
+    install: 
+    - runcat
