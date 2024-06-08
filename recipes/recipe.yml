@@ -48,4 +48,4 @@ modules:
     option: true
   - type: gnome-extensions
     install: 
-    - runcat
+    - gnome-runcat
