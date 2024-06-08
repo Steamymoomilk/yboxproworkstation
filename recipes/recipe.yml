@@ -54,7 +54,8 @@ modules:
     - 3193 # blur my shell
   
   - type: script
-    - snippets: "echo hello world"
+     snippets: 
+   - "echo hello world"
    # scripts: 
    #- extra-packages.sh
    #- distrobox.sh
