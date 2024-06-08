@@ -46,5 +46,5 @@ modules:
       # - org.gnome.eog
   - type: brew
     option: true
-  #- type: gnome-extensions
-   # option: true
+  - type: gnome-extensions
+    option: true
