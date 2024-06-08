@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-distrobox assemble create 
+distrobox assemble create --replace 
