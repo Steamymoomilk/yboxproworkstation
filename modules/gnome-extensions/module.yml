@@ -1,6 +1,6 @@
 type: gnome-extensions
 install:
-
+- runcat
   
                   # Name is case-sensitive, so check if extension name is typed correctly
   
