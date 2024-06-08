@@ -55,5 +55,6 @@ modules:
    - type: script 
    scripts: 
    - extra-packages.sh
+   - distrobox.sh
    
     
