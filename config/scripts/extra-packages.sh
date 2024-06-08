@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 set -oue pipefail
 
 brew install --cask vscodium
