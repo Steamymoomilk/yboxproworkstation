@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -oue pipefail
 gnome-extensions enable monitor@astraext.github.io
 gnome-extensions enable blur-my-shell@aunetx
 gnome-extensions enable caffeine@patapon.info
