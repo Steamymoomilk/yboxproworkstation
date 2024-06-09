@@ -68,6 +68,6 @@ modules:
   #- type: gschema-overrides
    # include:
    # - org.gnome.shell/
-   type: yafti 
+  - type: yafti 
   option: true
     
