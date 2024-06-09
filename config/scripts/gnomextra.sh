@@ -5,3 +5,5 @@ gnome-extensions enable runcat@kolesnikov.se
 gnome-extensions enable monitor@astraext.github.io
 gnome-extensions enable caffeine@patapon.info
 gnome-extensions enable user-theme@gnome-shell-extensions.gcampax.github.com
+#mkdir
+mkdir /usr/share/ublue-os/firstboot/
