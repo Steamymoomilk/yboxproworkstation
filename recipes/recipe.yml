@@ -55,8 +55,12 @@ modules:
     - 6682 #astra
     - 5940 #quick audio settings
     - 3193 # blur my shell
-  - type: script
-    scripts:
+  - type: yafti 
+  - type: gschema-overrides
+    include: 
+    - zz99-ybox.gschema.override
+  #- type: script
+    #scripts:
     #- distrobox.sh
     #- extra-packages.sh
     #- gnomextra.sh
