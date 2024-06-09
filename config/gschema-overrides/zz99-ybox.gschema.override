@@ -1,0 +1,6 @@
+[org.gnome.shell.Extensions.monitor]
+enabled=true
+[org.gnome.shell.Extensions.quick-settings-audio-panel]
+enabled=true
+[org.gnome.shell.Extensions.runcat]
+enabled=true
