@@ -69,5 +69,5 @@ modules:
    # include:
    # - org.gnome.shell/
    type: yafti 
-  
+  option: true
     
