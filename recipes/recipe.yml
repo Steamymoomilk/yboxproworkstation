@@ -62,6 +62,7 @@ modules:
     - gnomextra.sh
     #snippets: 
    #- "curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install ostree --no-confirm --persistence=/var/lib/nix"
+    - distrobox assemble create --replace /usr/etc.distrobox.ini
    # scripts: 
    #- extra-packages.sh
    #- distrobox.sh
