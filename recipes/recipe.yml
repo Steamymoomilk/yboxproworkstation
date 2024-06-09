@@ -73,9 +73,9 @@ modules:
   #- type: gschema-overrides
    # include:
    # - org.gnome.shell/
-  - type: yafti 
-  - type: gschema-overrides
-    include: zz99-ybox.gschema.override
+  #- type: yafti 
+  #- type: gschema-overrides
+   # include: zz99-ybox.gschema.override
       
   
   
