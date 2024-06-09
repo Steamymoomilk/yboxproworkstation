@@ -54,8 +54,8 @@ modules:
     - 3193 # blur my shell
   - type: script
     scripts:
-    #- distrobox.sh
-    - extra-packages.sh
+    - distrobox.sh
+    #- extra-packages.sh
   
    # scripts: 
    #- extra-packages.sh
