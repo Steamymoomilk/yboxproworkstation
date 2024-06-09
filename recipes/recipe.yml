@@ -14,7 +14,7 @@ modules:
     files:
       - usr: /usr # copies config/files/usr into your image's /usr.
              # put configuration files you want in /etc/ on a booted system 
-      - etc: /etc
+      #- etc: /etc
 
       - distroboxhome: /distroboxhome
       # in /usr/etc/ in the image. read more in files module reference.
