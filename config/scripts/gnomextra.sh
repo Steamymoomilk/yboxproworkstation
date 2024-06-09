@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -oue pipefail
-gnome-extensions enable 6682
-gnome-extensions enable 5940
-gnome-extensions enable 2986
-gnome-extensions enable 19
-gnome-extensions enable 517
+gnome-extensions enable quick-settings-audio-panel@rayzeq.github.io
+gnome-extensions enable runcat@kolesnikov.se
+gnome-extensions enable monitor@astraext.github.io
+gnome-extensions enable caffeine@patapon.info
+gnome-extensions enable user-theme@gnome-shell-extensions.gcampax.github.com
