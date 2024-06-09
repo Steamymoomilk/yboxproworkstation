@@ -58,7 +58,7 @@ modules:
   - type: script
     scripts:
     #- distrobox.sh
-    - extra-packages.sh
+    #- extra-packages.sh
     #- gnomextra.sh
     #snippets: 
    #- "curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install ostree --no-confirm --persistence=/var/lib/nix"
@@ -70,5 +70,10 @@ modules:
    # include:
    # - org.gnome.shell/
   - type: yafti 
+  - type: gschema-overrides
+    include: zz99-ybox.gschema.override
+      
+  
+  
   
     
