@@ -99,8 +99,7 @@ modules:
     #- distrobox.sh
     #- extra-packages.sh
     - gnomextra.sh
-    #snippets: 
-  - cargo install 
+    #snippets:  
     #- distrobox assemble create --replace /usr/etc.distrobox.ini
    # scripts: 
    #- extra-packages.sh
