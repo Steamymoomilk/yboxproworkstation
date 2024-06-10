@@ -26,6 +26,8 @@ modules:
       - micro
       - kdenlive
       - krita
+      - tuptime
+      - mpv
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -79,6 +81,8 @@ modules:
     - tealdeer
     - bat
     - yewtube
+    - rustup-init
+    - ouch
     #option: true
   - type: gnome-extensions
     install: 
@@ -96,7 +100,7 @@ modules:
     #- extra-packages.sh
     - gnomextra.sh
     #snippets: 
-   #- "curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install ostree --no-confirm --persistence=/var/lib/nix"
+  - cargo install 
     #- distrobox assemble create --replace /usr/etc.distrobox.ini
    # scripts: 
    #- extra-packages.sh
