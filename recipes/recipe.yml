@@ -69,7 +69,16 @@ modules:
       - com.github.rafostar.Clapper
       - org.gnome.Calendar
   - type: brew
-    install: vscodium
+    install: 
+    - vscodium
+    - atuin
+    - nvtop
+    - duf
+    - gdu
+    - fzf
+    - tealdeer
+    - bat
+    - yewtube
     #option: true
   - type: gnome-extensions
     install: 
