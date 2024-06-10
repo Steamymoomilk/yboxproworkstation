@@ -60,7 +60,7 @@ modules:
     include: 
     - zz99-ybox.gschema.override
   - type: script
-    #scripts:
+    scripts:
     #- distrobox.sh
     #- extra-packages.sh
     - gnomextra.sh
