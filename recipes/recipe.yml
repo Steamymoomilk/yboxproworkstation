@@ -28,6 +28,14 @@ modules:
       - krita
       - tuptime
       - mpv
+      - libvirt-daemon-kvm
+      - libvirt-daemon-config-network
+      - qemu-kvm
+      - virt-manager
+      - virt-veiwer
+      - libguestfs-tools
+      - python3-libguestfs
+      - virt-top
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
