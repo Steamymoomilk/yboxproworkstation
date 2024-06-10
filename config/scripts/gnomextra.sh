@@ -8,3 +8,4 @@ gnome-extensions enable user-theme@gnome-shell-extensions.gcampax.github.com
 #mkdir
 mkdir /usr/share/ublue-os/firstboot/
 /usr/bin/yafti /usr/share/ublue-os/firstboot/yafti.yml
+mkdir /usr/share/ublue-os/firstboot/launcher/
