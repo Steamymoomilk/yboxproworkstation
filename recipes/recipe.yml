@@ -28,13 +28,13 @@ modules:
       - krita
       - tuptime
       - mpv
-      - libvirt-daemon-kvm
-      - libvirt-daemon-config-network
-      - qemu-kvm
-      - virt-manager
-      - virt-veiwer
-      - libguestfs-tools
-      - python3-libguestfs
+      - qemu
+      - virt-manager 
+      - libvirt 
+      - virt-viewer 
+      - guestfs-tools 
+      - libguestfs-tools 
+      - python3-libguestfs 
       - virt-top
       # - starship
     remove:
