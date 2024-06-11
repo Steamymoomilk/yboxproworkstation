@@ -36,6 +36,7 @@ modules:
       - libguestfs-tools 
       - python3-libguestfs 
       - virt-top
+      - kitty
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
