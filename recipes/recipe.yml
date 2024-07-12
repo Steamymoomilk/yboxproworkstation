@@ -36,7 +36,7 @@ modules:
       - virt-top
       - kitty
       - i3
-      #- xorg-x11-server
+      - cura 
       - printrun 
       #- starship
     remove:
@@ -55,7 +55,7 @@ modules:
       install:
          - org.mozilla.firefox
         # - org.gnome.Loupe
-      - io.gitlab.librewolf-community
+      #- io.gitlab.librewolf-community
       - com.prusa3d.PrusaSlicer
       - fr.romainvigier.MetadataCleaner
          # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
