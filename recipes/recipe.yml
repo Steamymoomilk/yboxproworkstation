@@ -48,7 +48,7 @@ modules:
       - cava
       
       #- starship
-    - type: brew
+  - type: brew
     install: 
       - yewtube
       - duf
