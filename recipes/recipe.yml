@@ -45,8 +45,18 @@ modules:
       - fastfetch
       - gnome-disk-utility
       - gparted
+      - cava
       
       #- starship
+    - type: brew
+    install: 
+      - yewtube
+      - duf
+      - gdu
+      - fzf
+      - tealdeer
+      - bat
+      - ouch
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
