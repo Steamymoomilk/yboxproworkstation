@@ -4,7 +4,7 @@ name: yboxproworkstation
 description: devbox they way i want it set.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-deck-gnome
+base-image: ghcr.io/ublue-os/ucore-stable
 image-version: 40 # latest is also supported if you want new updates ASAP
 #base-image: ghcr.io/aguslr/bluefusion
 # module configuration, executed in order
@@ -35,6 +35,7 @@ modules:
       - python3-libguestfs 
       - virt-top
       - kitty
+      - xfce
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -77,43 +78,7 @@ modules:
       - org.kde.kclock
       - com.github.rafostar.Clapper
       - org.gnome.Calendar
-  - type: brew
-    install: 
-    - nvtop
-    - duf
-    - gdu
-    - fzf
-    - tealdeer
-    - bat
-    - ouch
-    #option: true
-  - type: gnome-extensions
-    install: 
-    - 2986 #runcat
-    - 6682 #astra
-    - 5940 #quick audio settings
-    - 3193 # blur my shell
-  #- type: yafti 
-  - type: gschema-overrides
-    include: 
-    - zz99-ybox.gschema.override
-  - type: script
-    scripts:
-    #- distrobox.sh
-    #- extra-packages.sh
-    - gnomextra.sh
-    #snippets:  
-    #- distrobox assemble create --replace /usr/etc.distrobox.ini
-   # scripts: 
-   #- extra-packages.sh
-   #- distrobox.sh
-  #- type: gschema-overrides
-   # include:
-   # - org.gnome.shell/
-  #- type: yafti 
-  #- type: gschema-overrides
-   # include: zz99-ybox.gschema.override
-      
+
   
   
   
