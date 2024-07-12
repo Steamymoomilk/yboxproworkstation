@@ -37,7 +37,15 @@ modules:
       - kitty
       - i3
       - cura 
-      - printrun 
+      - printrun
+      - mpv
+      - btop
+      - nvtop
+      - testdisk
+      - fastfetch
+      - gnome-disk-utility
+      - gparted
+      
       #- starship
     remove:
       # example: removing firefox (in favor of the flatpak)
