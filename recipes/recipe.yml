@@ -53,6 +53,8 @@ modules:
       - cutecom
       - pipx
       - cargo
+      - iftop
+      
       
       #- starship
     remove:
@@ -64,6 +66,7 @@ modules:
     snippets:
       - "pipx install yewtube"
       - "cargo install ouch"
+      - "cargo install gping"
 
   
   
