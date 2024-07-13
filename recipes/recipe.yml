@@ -50,6 +50,7 @@ modules:
       - fzf
       - tealdeer
       - bat
+      - cutecom
       
       #- starship
 
