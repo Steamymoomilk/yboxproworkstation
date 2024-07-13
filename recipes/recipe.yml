@@ -46,23 +46,23 @@ modules:
       - gnome-disk-utility
       - gparted
       - cava
-      
-      #- starship
-  - type: brew
-    install: 
-      - yewtube
       - duf
-      - gdu
       - fzf
       - tealdeer
       - bat
-      - ouch
+      
+      #- starship
+
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
+    - type: brew
+    install: 
+      - yewtube
+      - duf
+      - ouch
 
   
   
