@@ -65,8 +65,7 @@ modules:
   - type: script
     snippets:
       - "pipx install yewtube"
-      - "cargo install ouch"
-      - "cargo install gping"
+     
 
   
   
